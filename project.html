@@ -448,7 +448,7 @@
 														text: ''
 													},
 													xAxis: {
-														categories: ['SVM', 'Logistic Regression', 'Naive Bayes', 'Decision Tree', 'Dense Layer', 'GCN'],
+														categories: ['SVM', 'Logistic Regression', 'Naive Bayes', 'Decision Tree', 'Dense Layer', 'GCN (2% training data)', 'GCN (5% training data)'],
 														title: {
 															text: null
 														}
@@ -490,10 +490,10 @@
 													},
 													series: [{
 														name: 'Training Accuracy',
-														data: [0.763953, 0.763807, 0.661308, 1.000000, 0.9741, 0.9778]
+														data: [0.763953, 0.763807, 0.661308, 1.000000, 0.9741, 0.9567, 0.9460]
 													},{
 														name: 'Testing Accuracy',
-														data: [0.453880, 0.453793, 0.464983, 0.530479, 0.9473, 0.9335]
+														data: [0.453880, 0.453793, 0.464983, 0.530479, 0.9473, 0.9579, 0.9601]
 													}]
 												});
 												$('#model').highcharts(json);
